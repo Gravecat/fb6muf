@@ -21,7 +21,7 @@ kat-teleport.muf -- A simple teleport command, which supports user-set destinati
 
 kat-toadstub.muf -- A very basic stub to add extra confirmation when @toading someone.
 
-kat-socialsii.muf -- A MUCK socials program, based loosely on Socials v2.2 by Katt.
+kat-socials2.muf -- A MUCK socials program, based loosely on Socials v2.2 by Katt.
 
 kat-ansitoggle.muf -- A very simple program that provides a command for toggling ANSI colour on and off.
 
