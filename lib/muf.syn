@@ -1,0 +1,542 @@
+; TextPad syntax definitions for MUCK Forth, by Mark Paschal <markpasc@mindspring.com>
+; Updated with FuzzBall 6 definitions by Tom 'Gravecat' Simmons <gravecat@gmail.com>
+
+C=1
+
+[Syntax]
+Namespace1 = 6
+IgnoreCase = No
+BracketChars =
+OperatorChars = -+*/%<>!=@{}'
+PreprocStart =
+SyntaxStart =
+SyntaxEnd =
+HexPrefix = 0x
+CommentStart = (
+CommentEnd = )
+CommentStartAlt =
+CommentEndAlt =
+SingleComment =
+SingleCommentCol =
+SingleCommentAlt =
+SingleCommentColAlt =
+SingleCommentEsc =
+StringsSpanLines = No
+StringStart = "
+StringEnd = "
+StringAlt =
+StringEsc = \
+CharStart =
+CharEnd =
+CharEsc =
+
+[Keywords 1]
+; -- Primitives --
+; - StackOps -
+depth
+dup
+dupn
+ldup
+lreverse
+over
+pick
+pop
+popn
+put
+reverse
+rot
+rotate
+swap
+; - LogicOps -
+address?
+and
+array?
+dbref?
+dictionary?
+float?
+int?
+lock?
+not
+or
+string?
+xor
+; - IOOps -
+notify
+notify_except
+notify_exclude
+read
+read_wants_blanks
+tread
+userlog
+; - MathOps -
+abs
+bitand
+bitor
+bitshift
+bitxor
+getseed
+int
+random
+setseed
+sign
+srand
+; - FloatOps -
+acos
+asin
+atan
+atan2
+ceil
+clear
+clear_error
+cos
+diff3
+dist3d
+epsilon
+error?
+error_bit
+error_name
+error_num
+error_str
+exp
+fabs
+float
+floor
+fmod
+frand
+ftostr
+ftostrc
+inf
+is_set?
+log
+log10
+modf
+pi
+polar_to_xyz
+pow
+round
+set_error
+sin
+sqrt
+strtof
+tan
+xyz_to_polar
+; - StringOps -
+ansi_midstr
+ansi_strcut
+ansi_strip
+ansi_strlen
+array_fmtstrings
+atoi
+ctoi
+explode
+explode_array
+fmtstring
+instr
+instring
+intostr
+itoc
+midstr
+name-ok?
+number?
+pname-ok?
+pronoun_sub
+regexp
+regsub
+rinstr
+rinstring
+rsplit
+smatch
+split
+stod
+strcat
+strcmp
+strcut
+strdecrypt
+strencrypt
+stringcmp
+stringpfx
+strip
+striplead
+striptail
+strlen
+strncmp
+subst
+textattr
+tokensplit
+tolower
+toupper
+; - LockOps -
+getlockstr
+locked?
+parselock
+prettylock
+setlockstr
+testlock
+unparselock
+; - ArrayOps -
+array_appenditem
+array_compare
+array_count
+array_cut
+array_delitem
+array_delrange
+array_diff
+array_excludeval
+array_explode
+array_extract
+array_findval
+array_first
+array_getitem
+array_getrange
+array_insertitem
+array_insertrange
+array_interpret
+array_intersect
+array_join
+array_keys
+array_last
+array_make
+array_make_dict
+array_matchkey
+array_matchval
+array_ndiff
+array_nested_del
+array_nested_get
+array_nested_set
+array_next
+array_nintersect
+array_notify
+array_nunion
+array_prev
+array_reverse
+array_setitem
+array_setrange
+array_sort
+array_sort_indexed
+array_union
+array_vals
+}cat
+}dict
+}join
+}list
+}tell
+; - PropOps -
+addprop
+array_filter_flags
+array_filter_prop
+array_get_propdirs
+array_get_proplist
+array_get_propvals
+array_get_reflist
+array_put_proplist
+array_put_propvals
+array_put_reflist
+blessed?
+blessprop
+envprop
+envpropstr
+getprop
+getpropfval
+getpropstr
+getpropval
+nextprop
+parseprop
+parsepropex
+propdir?
+reflist_add
+reflist_del
+reflist_find
+remove_prop
+setprop
+unblessprop
+; - DBOps -
+addpennies
+array_get_ignorelist
+caller
+checkpassword
+contents
+contents_array
+controls
+copyobj
+copyplayer
+dbcmp
+dbref
+dbtop
+desc
+drop
+exit?
+exits
+exits_array
+fail
+findnext
+flag?
+getlink
+getlinks
+getlinks_array
+ignore_add
+ignore_del
+ignoring?
+location
+match
+mlevel
+movepennies
+moveto
+name
+newexit
+newobject
+newpassword
+newplayer
+newprogram
+newroom
+next
+nextentrance
+nextowned
+objmem
+odrop
+ofail
+ok?
+osucc
+owner
+part_pmatch
+pennies
+player?
+pmatch
+prog
+program?
+recycle
+rmatch
+room?
+set
+setdesc
+setdrop
+setfail
+setlink
+setlinks_array
+setname
+setodrop
+setofail
+setosucc
+setown
+setsucc
+setsysparm
+stats
+succ
+sysparm
+sysparm_array
+thing?
+timestamps
+toadplayer
+trig
+truename
+unparseobj
+; - TimeOps -
+date
+gmtoffset
+sleep
+systime
+systime_precise
+time
+timefmt
+timesplit
+; - ProcOps -
+background
+bg_mode
+compile
+compiled?
+fg_mode
+foreground
+fork
+getpidinfo
+getpids
+instances
+ispid?
+kill
+mode
+pid
+pr_mode
+preempt
+program_getlines
+program_setlines
+queue
+setmode
+uncompile
+; - ConnOps -
+awake?
+conboot
+concount
+condbref
+condescr
+conhost
+conidle
+connotify
+contime
+conuser
+descr
+descr_array
+descr_setuser
+descrboot
+descrbufsize
+descrcon
+descrdbref
+descrflush
+descrhost
+descridle
+descriptors
+descrleastidle
+descrmostidle
+descrnotify
+descrsecure?
+descrtime
+descruser
+firstdescr
+lastdescr
+nextdescr
+online
+online_array
+; - EventOps -
+event_count
+event_exists
+event_send
+event_wait
+event_waitfor
+timer_start
+timer_stop
+watchpid
+; - MCPOps -
+mcp_bind
+mcp_register
+mcp_register_event
+mcp_send
+mcp_supports
+; - GUIOps -
+c_button
+c_checkbox
+c_combobox
+c_datum
+c_edit
+c_frame
+c_hrule
+c_image
+c_label
+c_listbox
+c_menu
+c_multiedit
+c_notebook
+c_radiobtn
+c_scale
+c_spinner
+c_vrule
+gui-options
+gui_available
+gui_ctrl_command
+gui_ctrl_create
+gui_dlog_close
+gui_dlog_create
+gui_dlog_helper
+gui_dlog_show
+gui_dlog_simple
+gui_dlog_tabbed
+gui_value_get
+gui_value_set
+gui_valies_set
+; - Exceptions -
+abort
+checkargs
+try
+; - Debugging -
+debug_line
+debug_off
+debug_on
+debugger_break
+debugger_commands
+; - MiscOps -
+force
+force_level
+version
+
+[Keywords 2]
+; directives
+command
+interp
+loc
+localvar
+lvar
+me
+trigger
+var
+var!
+variable
+
+[Keywords 3]
+; ExecStructs
+begin
+break
+call
+cancall?
+continue
+else
+execute
+exit
+for
+foreach
+if
+interp
+jmp
+public
+repeat
+then
+until
+while
+wizcall
+
+[Keywords 4]
+; common macros
+.tell
+.tellgood
+.tellbad
+.tellwarn
+.otell
+.alltell
+.popall
+.popn
+.wiz?
+.wizard?
+.yes?
+.no?
+.abs
+.singlespace
+.debug
+
+[Keywords 5]
+; "preprocessor"
+$abort
+$author
+$cleardefs
+$def
+$define
+$echo
+$else
+$enddef
+$endif
+$ifcancall
+$ifdef
+$iflib
+$iflibver
+$ifncalcall
+$ifndef
+$ifnlib
+$ifnlibver
+$ifnver
+$ifver
+$include
+$lib-version
+$libdef
+$note
+$pragma
+$pubdef
+$undef
+$version
+__fuzzball__
+__muckname
+__version
+max_variable_count
