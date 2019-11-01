@@ -1,4 +1,4 @@
-( Kat-StaffList.muf -- By Tom 'Gravecat' Simmons [2003-2006] <http://gravec.at/>
+( Kat-StaffList.muf -- By Raine 'Gravecat' Simmons [2003-2006] <raine@moxx.net>
 Based on Area-Commands.muf by Stelard Actek and Wizzes.muf by Keet
 This software is released copyright-free into the public domain. Do with it as you wish! )
 

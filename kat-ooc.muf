@@ -1,4 +1,4 @@
-( Kat-OOC.muf -- By Tom 'Gravecat' Simmons [2003-2006] <http://gravec.at/>
+( Kat-OOC.muf -- By Raine 'Gravecat' Simmons [2003-2006] <raine@moxx.net>
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
 

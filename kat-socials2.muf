@@ -1,4 +1,4 @@
-( Kat-SocialsII.muf -- Copyright 2003-2006 Tom 'Gravecat' Simmons <http://gravec.at/>
+( Kat-SocialsII.muf -- Copyright 2003-2006 Raine 'Gravecat' Simmons <raine@moxx.net>
 Based on Socials v2.2 by Katt@Dreams
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

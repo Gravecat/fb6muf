@@ -1,4 +1,4 @@
-( Kat-PInfo.muf -- By Tom 'Gravecat' Simmons [2004-2006] <http://gravec.at/>
+( Kat-PInfo.muf -- By Raine 'Gravecat' Simmons [2004-2006] <raine@moxx.net>
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
 

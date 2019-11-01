@@ -1,4 +1,4 @@
-( Kat-Fruit.muf -- Copyright 2003-2006 Tom 'Gravecat' Simmons <http://gravec.at/>
+( Kat-Fruit.muf -- Copyright 2003-2006 Raine 'Gravecat' Simmons <raine@moxx.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

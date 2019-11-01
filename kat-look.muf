@@ -1,4 +1,4 @@
-( Kat-Look.muf -- Copyright 2004-2006 Tom 'Gravecat' Simmons <http://gravec.at/>
+( Kat-Look.muf -- Copyright 2004-2006 Raine 'Gravecat' Simmons <raine@moxx.net>
 Modified by Premchaia to not show contents of things with an "H" flag.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

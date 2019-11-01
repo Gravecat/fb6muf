@@ -1,4 +1,4 @@
-( Kat-Kingdom.muf -- Copyright 2004-2006 Tom 'Gravecat' Simmons <http://gravec.at/>
+( Kat-Kingdom.muf -- Copyright 2004-2006 Raine 'Gravecat' Simmons <raine@moxx.net>
 Based on Yellow River Kingdom for the BBC Micro by Tom Hartley, Jerry Temple-Fry and Richard G Warner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

@@ -1,4 +1,4 @@
-( Kat-ToadStub.muf -- By Tom 'Gravecat' Simmons [2002-2006] <http://gravec.at/>
+( Kat-ToadStub.muf -- By Raine 'Gravecat' Simmons [2002-2006] <raine@moxx.net>
 This software is released copyright-free into the public domain. Do with it as you wish! )
  
 $def MAJOR_VERSION 1

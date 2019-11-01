@@ -1,4 +1,4 @@
-( Kat-Recycle -- By Tom 'Gravecat' Simmons [2002-2006] <http://gravec.at/>
+( Kat-Recycle -- By Raine 'Gravecat' Simmons [2002-2006] <raine@moxx.net>
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
 
