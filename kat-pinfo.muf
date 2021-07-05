@@ -1,4 +1,4 @@
-( Kat-PInfo.muf -- By Raine 'Gravecat' Simmons [2004-2006] <raine@moxx.net>
+( Kat-PInfo.muf -- By Raine 'Gravecat' Simmons [2004-2006] <gc@gravecat.com>
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
 
@@ -19,13 +19,13 @@ $include $lib/ansify
 
 : help
   " " .tell
-  "~&160.--------------------.   ~&170/\\_/\\" ansi-tell
-  "~&160|      ~&120Kat-PInfo     ~&160| ~&170=( ~&120o~&150.~&120O ~&170)=" ansi-tell
-  "~&160|     ~&130-= v" MAJOR_VERSION intostr "." MINOR_VERSION intostr PATCH_VERSION intostr
-  " =-    ~&160|   ~&170)   (" strcat strcat strcat strcat strcat ansi-tell
-  "~&160'--------------------'-~&170\"\"~&160------~&170\"\"~&160--." ansi-tell
-  "~&160|Created By Tom 'Gravecat' Simmons.|" ansi-tell
-  "~&160'----------------------------------'" ansi-tell
+  "~&160.---------------------.   ~&170/\\_/\\" ansi-tell
+  "~&160|       ~&120Kat-PInfo     ~&160| ~&170=( ~&120o~&150.~&120O ~&170)=" ansi-tell
+  "~&160|      ~&130-= v" MAJOR_VERSION intostr "." MINOR_VERSION intostr PATCH_VERSION intostr
+  " =-     ~&160|   ~&170)   (" strcat strcat strcat strcat strcat ansi-tell
+  "~&160'--------------------'-~&170\"\"~&160-------~&170\"\"~&160--." ansi-tell
+  "~&160|Created By Raine 'Gravecat' Simmons|" ansi-tell
+  "~&160'-----------------------------------'" ansi-tell
   " " .tell
   " pinfo <player>         - Shows information for <player>." .tell
   " pinfo #<field> <text>  - Sets one of your pinfo fields." .tell

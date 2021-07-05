@@ -1,4 +1,4 @@
-( Kat-StaffList.muf -- By Raine 'Gravecat' Simmons [2003-2006] <raine@moxx.net>
+( Kat-StaffList.muf -- By Raine 'Gravecat' Simmons [2003-2006] <gc@gravecat.com>
 Based on Area-Commands.muf by Stelard Actek and Wizzes.muf by Keet
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
@@ -35,7 +35,7 @@ lvar arg2
   "~&160|        ~&130-= v" MAJOR_VERSION intostr "." MINOR_VERSION intostr PATCH_VERSION intostr
   " =-       ~&160|   ~&170)   (" strcat strcat strcat strcat strcat ansi-tell
   "~&160'--------------------------'-~&170\"\"~&160-----~&170\"\"~&160----." ansi-tell
-  "~&160|    Created by Tom 'Gravecat' Simmons    |" ansi-tell
+  "~&160|   Created by Raine 'Gravecat' Simmons   |" ansi-tell
   "~&160| Based on code by Stelard Actek and Keet |" ansi-tell
   "~&160'-----------------------------------------'" ansi-tell
   " " .tell

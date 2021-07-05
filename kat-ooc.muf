@@ -1,4 +1,4 @@
-( Kat-OOC.muf -- By Raine 'Gravecat' Simmons [2003-2006] <raine@moxx.net>
+( Kat-OOC.muf -- By Raine 'Gravecat' Simmons [2003-2006] <gc@gravecat.com>
 This software is released copyright-free into the public domain. Do with it as you wish! )
 
 
@@ -19,7 +19,7 @@ $include $lib/ansify
   "~&160|        ~&130-= v" MAJOR_VERSION intostr "." MINOR_VERSION intostr PATCH_VERSION intostr
   " =-       ~&160|   ~&170)   (" strcat strcat strcat strcat strcat ansi-tell
   "~&160'--------------------------'-~&170\"\"~&160-----~&170\"\"~&160--." ansi-tell
-  "~&160|  Created by Tom 'Gravecat' Simmons.  |" ansi-tell
+  "~&160|  Created by Raine 'Gravecat' Simmons  |" ansi-tell
   "~&160'---------------------------------------'" ansi-tell
   " " .tell
 ;
